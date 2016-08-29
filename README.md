@@ -1,7 +1,7 @@
 # Example-app
 Example app for the forecast.io.live npm package [forecast.io.live](https://www.npmjs.com/package/forecast.io.live)
 
-Thanks for [startbootstrap](https://startbootstrap.com/template-categories/all/) for the template !
+Thanks to [startbootstrap](https://startbootstrap.com/template-categories/all/) for the template !
 
 # How to install 
 
