@@ -5,6 +5,8 @@ Example app for the forecast.io.live npm package [forecast.io.live](https://www.
 
 Set your `API_KEY` in the `.env` file, then 
 
+    npm install
+
     npm start
     
 
