@@ -21,11 +21,11 @@ var socket = io.connect('http://localhost:3000',{transports:['websocket'],'force
 
      socket.on('forecast',function(data){
 
-         $('#1').text(data.summary ? data.summary : data);
-         $('#2').text(data.temperature ? data.temperature : data);
-         $('#3').text(data.humidity ? data.humidity : data);
-         $('#4').text(data.visibility ? data.visibility : data);
-         $('#5').text(data.windSpeed ? data.windSpeed : data); 
+         $('#1').text(data.currently.summary ? data.currently.summary : data);
+         $('#2').text(data.currently.temperature ? data.currently.temperature : data);
+         $('#3').text(data.currently.humidity ? data.currently.humidity : data);
+         $('#4').text(data.currently.visibility ? data.currently.visibility : data);
+         $('#5').text(data.currently.windSpeed ? data.currently.windSpeed : data); 
          
 
         });
